@@ -1,0 +1,28 @@
+.data_figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 2rem;  
+}
+
+.data_figure img{
+    height: auto;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    padding: 0.4rem;
+    border: 1px dashed #dfe0e0
+}
+
+.title-bar, .details-bar {
+    border: dashed #dfe0e0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.window-pane {
+    border: dashed #dfe0e0;
+    padding: 1rem;
+}
